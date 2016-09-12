@@ -1,0 +1,30 @@
+{
+  "name": "devoir-dom",
+  "version": "0.1.0",
+  "description": "Devoir plugin adding DOM functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "node spec/runTests.js",
+    "test-debug": "node --inspect --debug-brk spec/runTests.js --do-debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:th317erd/devoir-dom.git"
+  },
+  "keywords": [
+    "DOM",
+    "Web",
+    "Virtual DOM",
+    "HTML5"
+  ],
+  "author": "Wyatt Greenway",
+  "email": "th317erd@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/th317erd/devoir-dom/issues"
+  },
+  "homepage": "https://github.com/th317erd/devoir-dom#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
